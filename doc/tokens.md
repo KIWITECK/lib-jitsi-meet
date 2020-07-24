@@ -113,6 +113,7 @@ yet.
 
 
 ### Installing token plugin
+Since multiple users had trouble with the easy method ```àpt install jitsi-meet-tokens```, due to lua 5.1 and 5.2 confilcts and  other dependencies errors, you can follow the tutorial by hkhait where he overcome the possible errors: https://community.jitsi.org/t/heres-how-you-should-install-jitsi-meet-tokens-on-debian-10/59606.
 
 Token authentication can be integrated automatically using Debian package install. Once you have jitsi-meet installed
 just install 'jitsi-meet-tokens' on top of it. In order to have it configured automatically at least version 779 of
